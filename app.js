@@ -73,8 +73,8 @@ const car = {
 
   const {make, model} = car
 
-  console.log(`Make: ${make}`);
-  console.log(`Model: ${model}`);
+  console.log(`Exercise 3: Make: ${make}`);
+  console.log(`Exercise 3: Model: ${model}`);
 
 
 
@@ -92,11 +92,11 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 
 const uncontroversialPizzaToppings = morePizzaToppings
 
-console.log(uncontroversialPizzaToppings)
+console.log('Exercise 4: ',uncontroversialPizzaToppings)
 
 // i want to add one more topping 
 uncontroversialPizzaToppings.push('Pepperoni')
-console.log(uncontroversialPizzaToppings)
+console.log('Exercise 4-1: ',uncontroversialPizzaToppings)
 
 
 
@@ -123,9 +123,7 @@ const myCar = {...anotherCar};
 myCar.model = 'Q5';
 myCar.make = 'Audi';
 
-console.log(anotherCar);
-
-console.log(myCar);
+console.log('Exercise 5: ',myCar);
 
 console.log(`I change Another Car: (${anotherCar.make} ${anotherCar.model}) to My Car: (${myCar.make} ${myCar.model})`)
 
@@ -147,7 +145,7 @@ const userProfile = {}
 
 userProfile[propertyName] = 'johnwick';
 
-console.log(userProfile);
+console.log('Exercise 6:',userProfile);
 
 // age
 const propertyName1 = 'age'
@@ -155,4 +153,7 @@ const userProfile1 = {};
 
 userProfile1[propertyName1] = '22'
 
-console.log('Example',userProfile1)
+console.log('Exercise 6-1:',userProfile1)
+
+
+
